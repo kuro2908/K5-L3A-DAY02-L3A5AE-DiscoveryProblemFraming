@@ -8,9 +8,9 @@
 
 - Họ tên: Nguyễn Trọng Phương Bách
 - MSSV:2A202603716
-- Email trường (không bắt buộc, repo có thể để public):
-- Tên nhóm:L3A5AE
-- Link repo nhóm:
+- Email trường (không bắt buộc, repo có thể để public): 26ai.bachntp@vinuni.edu.vn
+- Tên nhóm: L3A5AE
+- Link repo nhóm: https://github.com/kuro2908/K5-L3A-DAY02-L3A5AE-DiscoveryProblemFraming
 
 ---
 
@@ -28,7 +28,7 @@
 | 6 | Lặp lại | Khi cùng một thông báo được gửi nhiều nơi, tôi muốn nhận ra tin trùng, để không ghi cùng một việc hai lần. | Sinh viên | 1 thông báo lặp ở 3 nhóm, mất 5 phút kiểm tra lại. |
 | 7 | Pain từ người khác | Khi bạn cùng nhóm chờ phần việc của tôi, tôi muốn biết phần nào cần bàn giao hay thực hiện trước, để có thể phối hợp hiệu quả. | Sinh viên, bạn cùng nhóm | 2 bạn chờ 1 giờ vì chưa nhận được phần việc của tôi. |
 
-**AI gợi ý thêm:** #6 (thông báo trùng) và #7 (thứ tự bàn giao trong nhóm) mở thêm góc nhìn; cần tự xác nhận bằng trường hợp thật trước khi giữ. Loại gợi ý “hệ thống AI tự động quản lý toàn bộ việc học” vì quá rộng và chốt giải pháp sớm(solution-first).
+**AI gợi ý thêm:** #6 (thông báo trùng) và #7 (thứ tự bàn giao trong nhóm) mở thêm góc nhìn, cần tự xác nhận bằng trường hợp thật trước khi giữ. Loại gợi ý “hệ thống AI tự động quản lý toàn bộ việc học” vì quá rộng và chốt giải pháp sớm(solution-first).
 
 ---
 
@@ -38,7 +38,7 @@
 
 | Rank | Problem | Vì sao chọn | Điều còn chưa chắc |
 |---:|---|---|---|
-| 1 | Lọc tin học tập nhiều kênh (#1) | Mất 20 phút/ngày; có thể thử với Discord, Facebook và Zalo. | Ghim thông báo và dùng bảng tổng hợp đã đủ chưa? |
+| 1 | Lọc tin học tập nhiều kênh (#1) | Mất 20 phút/ngày và có thể thử với Discord, Facebook và Zalo. | Ghim thông báo và dùng bảng tổng hợp đã đủ chưa? |
 | 2 | Xác định thông báo còn hiệu lực (#2) | Đọc nhầm tin cũ, phải hỏi lại 1 lần/tuần. | Ai xác nhận khi hai thông báo mâu thuẫn? |
 | 3 | Ưu tiên bài gần hạn (#5) | Trễ 1 trong 3 bài đến hạn trong 2 ngày do ưu tiên sai. | Ngoài hạn nộp, cần xét khối lượng và mức quan trọng thế nào? |
 
@@ -52,10 +52,10 @@
 | Quy trình hiện tại | 1. Mở các nhóm - 2. Đọc và lọc tin liên quan - 3. Ghi việc cần làm và hạn nộp - 4. Kiểm tra lại nguồn. |
 | Bottleneck | Bước 2, đọc và lọc tin trên 3 nền tảng: 12 phút/ngày. |
 | Impact | Mất 20 phút/ngày để lọc tin, giảm thời gian làm bài. |
-| Success metric | Giảm từ 20 xuống tối đa 10 phút/ngày. Bấm giờ trong 7 ngày; đối chiếu nguồn mỗi ngày để kiểm tra không bỏ sót thông báo liên quan. |
+| Success metric | Giảm từ 20 xuống tối đa 10 phút/ngày. Bấm giờ trong 7 ngày, đối chiếu nguồn mỗi ngày để kiểm tra không bỏ sót thông báo liên quan. |
 | Phương án không dùng AI | Ghim thông báo, tắt thông báo nhóm không liên quan và ghi việc vào một bảng chung. |
-| Giả thuyết về AI | AI lọc và tóm tắt các thông báo sinh viên cung cấp, kèm nguồn; sinh viên kiểm tra trước khi ghi vào lịch. |
-| Cảm nhận nhanh | Thử cách không dùng AI trước; cân nhắc Workflow nếu vẫn mất trên 10 phút/ngày. |
+| Giả thuyết về AI | AI lọc và tóm tắt các thông báo sinh viên cung cấp kèm nguồn, sinh viên kiểm tra trước khi ghi vào lịch. |
+| Cảm nhận nhanh | Thử cách không dùng AI trước, cân nhắc Workflow nếu vẫn mất trên 10 phút/ngày. |
 
 Quy trình nháp hiện tại:
 
@@ -71,7 +71,7 @@ HIỆN TẠI - 20 phút/ngày
 | Trường | Nội dung |
 |---|---|
 | Job Story | Khi thông báo cũ khác thông báo mới, tôi muốn biết bản nào còn đúng, để không làm theo yêu cầu cũ. |
-| Actor | Sinh viên đọc thông báo; giảng viên hoặc người phụ trách lớp xác nhận thay đổi. |
+| Actor | Sinh viên đọc thông báo, giảng viên hoặc người phụ trách lớp xác nhận thay đổi. |
 | Thời điểm / bối cảnh | Khi hạn nộp hoặc yêu cầu của cùng một bài khác nhau giữa các thông báo. |
 | Quy trình hiện tại | 1. Tìm thông báo đang dùng - 2. Tìm và đối chiếu bản cập nhật - 3. Hỏi người phụ trách khi chưa rõ - 4. Sửa ghi chú. |
 | Bottleneck | Bước 2, tìm và đối chiếu nội dung, người gửi và thời điểm cập nhật: 5 phút/lần. |
