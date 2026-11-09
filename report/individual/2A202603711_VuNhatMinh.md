@@ -61,12 +61,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 Quy trình nháp hiện tại:
 
 ```text
-HIỆN TẠI — khoảng 30 phút mỗi sáng (8h30, trước giờ làm)
 
-[1 Kiểm tra mail: _'] → [2 Kiểm tra Kanban nhóm: _'] → [3 Đọc Zalo, Messenger: _']
-→ [4 Xem lịch, note: _'] → [5 Tổng hợp + sắp xếp việc và thời gian: 15'] ← BOTTLENECK
-
-(Bước 1–4 cộng lại khoảng 15'; tổng khoảng 30')
 ```
 
 ### Problem Card #2
@@ -87,10 +82,6 @@ HIỆN TẠI — khoảng 30 phút mỗi sáng (8h30, trước giờ làm)
 Quy trình nháp hiện tại:
 
 ```text
-HIỆN TẠI — hơn 1 tiếng mỗi ngày (10h sáng)
-
-[1 Mở trang tin, blog từng nhà cung cấp: _'] ← BOTTLENECK → [2 Kiểm tra bảng giá, changelog API: _']
-→ [3 Đối chiếu với service đang dùng: _'] → [4 Bàn bạc hướng xử lý với nhóm: _']
 ```
 
 ### Problem Card #3
@@ -111,10 +102,6 @@ HIỆN TẠI — hơn 1 tiếng mỗi ngày (10h sáng)
 Quy trình nháp hiện tại:
 
 ```text
-HIỆN TẠI — khoảng 30 phút mỗi lần, khoảng 4 lần mỗi tuần
-
-[1 Đọc yêu cầu: _'] → [2 Tách đầu việc: _'] → [3 Hỏi khả năng, lịch rảnh: _'] ← BOTTLENECK
-→ [4 Thảo luận phân công: _'] → [5 Ghi deadline lên Kanban/chat: _']
 ```
 
 ### Card muốn pitch nhất
@@ -146,16 +133,16 @@ AI (Claude) đóng vai PM hoài nghi, phản biện cả 3 card:
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
+| Pitch Problem Card | Góp ý và phân tích các ý tưởng, chỉ ra các vấn đề của từng ý tưởng và tổng hợp đánh giá | Đưa ra kết luận cuối và đảm bảo sự đồng thuận |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: Làm sao để tổng hợp và cá nhân hóa điểm mạnh/yếu của các thành viên, cách đảm bảo cơ chế bảo mật và nguồn thông tin chính xác, ... | Ảnh hưởng đến kết quả cuối và tư duy |
+| Nhận phản biện | Câu hỏi tôi nhận được: Các phần mềm ko cho dùng hệ thống ngoài. Ko nên để AI xem mọi thông tin cá nhân | Tôi đã sửa gì: Chuyển về ý tưởng workflow/manage thay vì AI agent |
 | Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
+| Chọn candidate problem | Pitch Problem Card #1 (gom việc và deadline từ nhiều nguồn mỗi sáng) với số liệu tự đo: khoảng 30 phút mỗi sáng, gần 10 việc bị lỡ trong tháng | Nhóm chọn card #1 của tôi làm candidate problem, vì có baseline đo được và quy trình 5 bước vẽ được ngay |
+| Kiểm chứng / research | Hỏi 2 người ngoài nhóm qua tin nhắn về buổi sáng gần nhất, việc bị lỡ gần nhất và cách đang ghi việc; dùng Claude kiểm tra trang hướng dẫn của Google Tasks, Trello Email-to-board và Pancake | Phát hiện việc bị lỡ còn đến từ group Facebook (người 1) và từ Gmail bị trôi (người 2, là tín hiệu phản bác); nhóm thu hẹp bottleneck về việc đến từ tin nhắn không được ghi ngay vào nơi chung |
+| Quy trình nhóm | Cung cấp quy trình buổi sáng thật của tôi và số phút từng bước (mail 5, Kanban 3, chat 5, lịch 2, tổng hợp 15) | Trở thành quy trình hiện tại và baseline 30 phút trong báo cáo nhóm; Claude chuyển thành sơ đồ Mermaid, tôi kiểm lại từng bước |
 | Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Mức can thiệp AI | Lúc CP2 tôi chọn Agent cho card #1; sau phản biện của nhóm (không để AI xem mọi thông tin cá nhân) và kết quả phỏng vấn, tôi đồng ý hạ xuống | Nhóm chọn Rule (mail, lịch) + No AI (quy ước giao việc trên Kanban), không chọn Workflow vì không có cách đọc tin nhắn cá nhân hợp lệ |
+| Quyết định | Là nhóm trưởng, chốt quyết định cuối cùng với nhóm | Go, phạm vi nhỏ: pilot 2 tuần trong nhóm, ngưỡng dừng là trên 15 phút/sáng hoặc từ 2 việc bị lỡ trở lên |
 
 ---
 
@@ -164,7 +151,7 @@ AI (Claude) đóng vai PM hoài nghi, phản biện cả 3 card:
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
 | CP1 Scan | | | | |
-| CP2 Problem Card | Nhờ Claude đóng vai PM hoài nghi phản biện 3 card; soạn nháp card #3 và khung quy trình nháp từ dữ liệu CP1 của tôi | Chỉ ra số liệu không khớp giữa CP1 và card, metric chưa đo được, chọn Agent quá sớm | AI không biết số phút thật từng bước nên để trống; quy trình card #3 là phỏng đoán theo mô tả của tôi | [tự điền: những gì bạn đã kiểm lại và sửa] |
+| CP2 Problem Card | Nhờ Claude đóng vai PM hoài nghi phản biện 3 card; soạn nháp card #3 và khung quy trình nháp từ dữ liệu CP1 của tôi | Chỉ ra số liệu không khớp giữa CP1 và card, metric chưa đo được, chọn Agent quá sớm | AI không biết số phút thật từng bước nên để trống; quy trình card #3 là phỏng đoán theo mô tả của tôi ||
 | CP4 Research | | | | |
 | CP5 Quy trình | | | | |
 | CP5–6 Problem Statement | | | | |
@@ -177,18 +164,24 @@ AI (Claude) đóng vai PM hoài nghi, phản biện cả 3 card:
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+Đa phần mọi người đều đưa ra các vấn đề mà AI agent hiện tại có thể xử lý rồi, nhưng cần cá nhân hóa và bổ sung data riêng
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+Hầu hết, do đa phần là suy luận từ tư duy sản phẩm, và cần debate cũng như bàn luận nhiều để nhìn ra problem thực tế
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+Có, quan trọng nhất là đổi từ AI agent xuống workflow
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+Khá bất ngờ, do ko phải ai cũng gặp vấn đề như tôi
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+Suy nghĩ như một khách hàng để nhận ra mình cần gì
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+Phản biện ở cách tìm kiếm pain point và solution decision
 
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình. Problem: Miss thông tin và task -> quy trình: thu thập và phân chia công việc -> metric: giảm về 10p 1 ngày -> boundary: data ở mức thông tin chung, sắp xếp việc đơn giản -> can thiệp: sắp xếp, ko đào sâu dữ liệu -> 1 tool hỗ trợ workflow
 
 ---
 
