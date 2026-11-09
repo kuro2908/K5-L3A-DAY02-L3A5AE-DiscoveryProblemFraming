@@ -55,7 +55,7 @@
 | Success metric | Giảm từ 20 xuống tối đa 10 phút/ngày. Bấm giờ trong 7 ngày, đối chiếu nguồn mỗi ngày để kiểm tra không bỏ sót thông báo liên quan. |
 | Phương án không dùng AI | Ghim thông báo, tắt thông báo nhóm không liên quan và ghi việc vào một bảng chung. |
 | Giả thuyết về AI | AI lọc và tóm tắt các thông báo sinh viên cung cấp kèm nguồn, sinh viên kiểm tra trước khi ghi vào lịch. |
-| Cảm nhận nhanh | Chưa biết. Thử cách không dùng AI trước, cân nhắc Workflow nếu vẫn mất trên 10 phút/ngày. |
+| Cảm nhận nhanh | Thử cách không dùng AI trước, cân nhắc Workflow nếu vẫn mất trên 10 phút/ngày. |
 
 Quy trình nháp hiện tại:
 
@@ -78,7 +78,7 @@ HIỆN TẠI - 20 phút/ngày
 | Impact | Đọc nhầm thông báo cũ, phải hỏi lại 1 lần/tuần; có thể làm theo yêu cầu đã đổi. |
 | Success metric | Giảm số lần hỏi lại do đọc nhầm tin cũ từ 1 xuống 0 lần/tuần trong 2 tuần. Ghi từng lần hỏi và đối chiếu ghi chú với thông báo đã xác nhận. |
 | Phương án không dùng AI | Giữ một bảng thông báo hiện hành, kèm nguồn và ngày cập nhật; người phụ trách đánh dấu bản thay thế. |
-| Giả thuyết về AI | Chưa cần. Khi nguồn mâu thuẫn, người phụ trách xác nhận bản còn hiệu lực. |
+| Giả thuyết về AI | Chưa cần; khi nguồn mâu thuẫn, người phụ trách xác nhận bản còn hiệu lực. |
 | Cảm nhận nhanh | Chưa cần dùng ngay AI - thống nhất nguồn và cách cập nhật trước. |
 
 Quy trình nháp hiện tại:
@@ -103,7 +103,7 @@ HIỆN TẠI - 10 phút/lần, chưa tính thời gian chờ phản hồi
 | Success metric | Giảm từ 1/3 xuống 0/3 bài trễ ở đợt tiếp theo có 3 bài đến hạn trong 2 ngày. Đối chiếu thời điểm nộp với hạn của từng bài. |
 | Phương án không dùng AI | Bảng tính ghi hạn, thời gian còn cần và mức quan trọng; đánh dấu bài có nguy cơ trễ để xếp trước. |
 | Giả thuyết về AI | Chưa cần; các tiêu chí đã có thể ghi và so sánh bằng bảng tính. |
-| Cảm nhận nhanh | Không AI. Dùng bảng tính đánh dấu nguy cơ trễ, sinh viên chốt thứ tự làm. |
+| Cảm nhận nhanh | Dùng bảng tính đánh dấu nguy cơ trễ, sinh viên chốt thứ tự làm. |
 
 Quy trình nháp hiện tại:
 
@@ -134,31 +134,29 @@ HIỆN TẠI - 10 phút/lần xếp lịch cho 3 bài
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | Trình bày 3 vấn đề: lọc tin nhiều kênh, xác định thông báo còn hiệu lực và ưu tiên bài gần hạn. | Đề xuất đào sâu việc lọc tin vì bước đọc và lọc tin cụ thể, dễ đo thời gian. |
-| Phản biện bài của bạn khác | Hỏi bạn: nếu ghim thông báo và dùng một bảng chung thì còn cần chatbot không? | Bổ sung cách không dùng AI để so sánh trước khi chọn giải pháp. |
-| Nhận phản biện | Nhóm góp ý rằng chatbot không cần thiết trong mọi tình huống. | Tôi bỏ ý định dùng chatbot cho mọi trường hợp, cân nhắc tổng hợp bằng tay khi các kênh đã phân chia rõ. |
-| Gom cluster / cây OST | Góp ý tách việc tìm tin, xác nhận tin và sắp xếp bài tập thành các nhu cầu khác nhau. | Giữ các nhánh là vấn đề của sinh viên, đưa chatbot ra khỏi phần nhu cầu. |
-| Chọn candidate problem | Đề xuất lọc tin học tập nhiều kênh thay vì giải quyết toàn bộ các kênh học. | Thu hẹp phạm vi vào thông báo trên Discord, Facebook và Zalo. |
-| Kiểm chứng / research | Đề xuất kiểm tra cách ghim tin và dùng bảng chung trước. | Cần đo thời gian và kiểm tra tin bỏ sót để biết cách này đã đủ chưa. |
-| Quy trình nhóm | Mô tả các bước mở nhóm, đọc và lọc tin, ghi việc, kiểm tra nguồn. | Tách rõ bước đọc và lọc tin để xác định chỗ cần cải thiện. |
-| Problem Statement | Góp ý đo cả thời gian xử lý và việc bỏ sót thông báo. | Giữ mục tiêu tối đa 10 phút/ngày, kèm đối chiếu nguồn, ngoài ra mốc 20 phút/ngày cần đo lại. |
-| Mức can thiệp AI | Đề xuất thử cách không AI trước, chỉ cân nhắc Workflow nếu vẫn mất trên 10 phút/ngày. | Nếu dùng AI, sinh viên vẫn kiểm tra nguồn trước khi ghi vào lịch. |
-| Quyết định | Đề xuất thử ghim tin và bảng chung trong 7 ngày trước khi chốt có cần AI. | Dùng thời gian thực tế và số tin bỏ sót để quyết định bước tiếp theo. |
+| Pitch Problem Card | | |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
+| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
+| Gom cluster / cây OST | | |
+| Chọn candidate problem | | |
+| Kiểm chứng / research | | |
+| Quy trình nhóm | | |
+| Problem Statement | | |
+| Mức can thiệp AI | | |
+| Quyết định | | |
 
 ---
 
 ## 5. Dùng AI
 
-*Các dòng CP4–CP6 là bản nháp giả định, cần đối chiếu với việc dùng AI thực tế trước khi nộp.*
-
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | Nhờ AI diễn đạt lại 5 ý, gợi ý #6–#7 và số liệu minh họa. | Viết ngắn theo Job Story; thêm góc nhìn về tin trùng và bàn giao công việc trong nhóm. | Số liệu chưa đo thực tế, gợi ý quản lý toàn bộ việc học quá rộng. | Loại ý quá rộng, giữ #6–#7 ở mức gợi ý cần xác nhận. |
-| CP2 Problem Card | Viết lại 3 card từ CP1 và nhờ AI phản biện. | Chỉ ra nguy cơ bỏ sót tin, tin mới chưa chắc đúng và ưu tiên chỉ theo hạn chưa đủ. | Bản cũ nói về hành chính, không khớp CP1, thời gian từng bước chưa kèm bản đo. | Đổi sang #1, #2, #5, thêm đối chiếu nguồn, người phụ trách xác nhận và tiêu chí khối lượng, mức quan trọng. Thử cách không AI trước. |
-| CP4 Research | Nhờ AI gợi ý cách ghim tin, dùng bảng chung và tóm tắt thông báo. | Có các phương án để so sánh ở bước đọc và lọc tin. | Chưa làm rõ cách xử lý khi thông báo mâu thuẫn. | Giữ yêu cầu lưu nguồn và nhờ người phụ trách xác nhận, chưa kết luận phương án nào hiệu quả hơn khi chưa thử. |
-| CP5 Quy trình | Nhờ AI chuyển mô tả lọc tin thành sơ đồ các bước. | Dễ thấy bước đọc và lọc tin là chỗ nghẽn. | Gộp ghi hạn nộp với kiểm tra nguồn, làm mờ bước kiểm tra. | Tách hai bước, sinh viên kiểm tra nguồn trước khi ghi vào lịch. Nếu bản tóm tắt sai thì đọc lại tin gốc. |
-| CP5–6 Problem Statement | Nhờ AI phản biện metric và giới hạn của AI. | Nhắc đo cả thời gian và số thông báo bị bỏ sót. | Coi mốc 20 phút/ngày là baseline đã xác nhận. | Yêu cầu đo lại baseline, giữ mục tiêu tối đa 10 phút/ngày, đối chiếu nguồn trong 7 ngày. AI không tự đổi hạn nộp. |
-| CP6 Mức can thiệp / quyết định | Nhờ AI phản biện lựa chọn No AI hay Workflow. | Chỉ ra cần thử cách đơn giản trước khi tăng mức can thiệp. | Đề xuất Workflow khi chưa có kết quả thử ghim tin và bảng chung. | Đề xuất thử cách không AI trong 7 ngày, chỉ cân nhắc Workflow nếu vẫn trên 10 phút/ngày. Nhóm tự chốt dựa trên thời gian và tin bỏ sót. |
+| CP1 Scan | Nhờ AI diễn đạt lại 5 ý, gợi ý #6–#7 và số liệu minh họa. | Viết ngắn theo Job Story. | Số liệu do AI đề xuất, chưa đo thực tế. | Ghi rõ số liệu giả định; cần tự xác nhận và thay bằng dấu hiệu thật trước khi nộp. |
+| CP2 Problem Card | Viết lại 3 card từ CP1 và phản biện. | Làm rõ bước nghẽn, metric và phương án không AI. | Bản cũ nói về hành chính, không khớp CP1. | Thay bằng vấn đề học tập #1, #2, #5; thêm kiểm tra nguồn và tiêu chí ưu tiên bài. |
+| CP4 Research | | | | |
+| CP5 Quy trình | | | | |
+| CP5–6 Problem Statement | | | | |
+| CP6 Mức can thiệp / quyết định | | | | |
 
 ---
 
@@ -166,29 +164,17 @@ HIỆN TẠI - 10 phút/lần xếp lịch cho 3 bài
 
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
-**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?** 
-
-Tôi cần chọn vấn đề thực tế và thu phạm vi đủ hẹp, tránh đề xuất xa vời viển vông.
+**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
-Có. Nhóm nghĩ tới chatbot tổng hợp thông tin trước. Khi nhận thấy các kênh đã được phân chia khá rõ, nhóm cân nhắc việc tổng hợp bằng tay, qua đó thống nhất đề xuất so sánh với cách ghim tin và dùng bảng chung trước khi chọn AI.
-
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
-
-Ban đầu tôi đề xuất chatbot, nhưng nhóm phản biện rằng không phải tình huống nào cũng cần thiết phải đưa vào sử dụng.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
-Báo cáo hiện chưa xác nhận lại kết quả phỏng vấn, survey hay research đã kiểm nguồn, nên sẽ cần thêm phân tích trước khi kết luận về một điều gì đó bất ngờ.
-
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
-Khó khăn lớn nhất là việc viết metric rõ ràng. Mốc 10 phút/ngày để kiểm tra đối chiếu thông báo chưa đủ nếu vẫn bị sót thông tin. Trong trường hợp như vậy chúng ta nên đối chiếu nguồn mỗi ngày để đảm bảo không bỏ sót.
-
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
-
-Tôi sẽ bấm giờ từng bước sớm hơn và tách số đã đo khỏi số minh họa. Tôi sẽ hỏi nhóm rõ hơn: ghim tin và bảng chung còn thiếu gì, ai xác nhận khi thông báo mâu thuẫn, và nếu AI tóm tắt sai thì xử lý thế nào?
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
