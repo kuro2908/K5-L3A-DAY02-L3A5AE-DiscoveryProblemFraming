@@ -138,31 +138,31 @@ Quy trình nháp hiện tại:
 
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
 
-| Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
-|---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Hoạt động                  | Tôi đã làm gì?                                                                                   | Kết quả / ảnh hưởng tới bài nhóm                                                                                |     |
+| -------------------------- | ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- | --- |
+| Pitch Problem Card         | Trình bày Problem Card cá nhân về bài toán thu thập thông tin từ nhiều nguồn                     | Đóng góp thêm góc nhìn về bài toán và hành vi người dùng vào kho ý tưởng chung của nhóm                         |     |
+| Phản biện bài của bạn khác | Đặt câu hỏi về tính khả thi dữ liệu, độ bảo mật và rủi ro cho 2 Problem Card của thành viên khác | Giúp nhóm loại bỏ các ý tưởng quá rộng hoặc thiếu tính khả thi về mặt kỹ thuật/thu thập dữ liệu                 |     |
+| Nhận phản biện             | Lắng nghe phản hồi từ các thành viên về giới hạn vấn đề của mình                                 | Điều chỉnh lại cách xử lý vấn đề                                                                                |     |
+| Gom cluster / cây OST      | Cùng nhóm thảo luận để gom nhóm các vấn đề tương đồng                                            | Hoàn thiện cấu trúc cây OST mạch lạc, liên kết chặt chẽ                                                         |     |
+| Chọn candidate problem     | Tham gia chấm điểm ma trận ưu tiên để so sánh giữa 3 bài toán tiềm năng nhất của nhóm            | Cùng nhóm thống nhất để chọn ra 1 bài toán cốt lõi có giá trị thực tế cao nhất và phù hợp với năng lực của nhóm |     |
+| Kiểm chứng / research      | Tìm kiếm tài liệu, benchmarj và các giải pháp                                                    | Cung cấp bằng chứng thực tế giúp bảo vệ tính khả thi cho bài toán                                               |     |
+| Quy trình nhóm             | Họp bàn vấn đề, mỗi thành viên tự tìm cho mình ít nhất 5 vấn đề, sau đó cùng nhau thảo luận      | Chọn Card 1 của Minh để làm vấn đề chính                                                                        |     |
+| Problem Statement          |                                                                                                  |                                                                                                                 |     |
+| Mức can thiệp AI           | Tôi sử dụng AI để gợi ý việc build Agent cho Card 3 của tôi                                      | Không ảnh hưởng gì đến nhóm                                                                                     |     |
+| Quyết định                 | Là thành viên, quyền do nhóm trưởng quyết định                                                   | Tham gia đóng góp xây dựng bài lab                                                                              |     |
 
 ---
 
 ## 5. Dùng AI
 
-| Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
-|---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| Checkpoint                     | Tôi dùng AI để làm gì?                                                                           | AI hữu ích ở đâu?                                                       | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
+| ------------------------------ | ------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------- | -------------------------- | ----------------------------------- |
+| CP1 Scan                       |                                                                                                  |                                                                         |                            |                                     |
+| CP2 Problem Card               | Dùng AI để phản biện sơ bộ Problem Card 3 (bài toán đồ án) và kiểm tra lỗi logic trong quy trình | Chỉ ra được lỗi phổ biến, đó là nhầm lẫn success metric thành giải pháp |                            |                                     |
+| CP4 Research                   |                                                                                                  |                                                                         |                            |                                     |
+| CP5 Quy trình                  |                                                                                                  |                                                                         |                            |                                     |
+| CP5–6 Problem Statement        |                                                                                                  |                                                                         |                            |                                     |
+| CP6 Mức can thiệp / quyết định |                                                                                                  |                                                                         |                            |                                     |
 
 ---
 
@@ -171,18 +171,24 @@ Quy trình nháp hiện tại:
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
-
+Đa số người dùng sử dụng AI chưa thực sự triệt để hóa được chức năng của một Agent
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
-
+Không. Nhóm đã nhận ra và biết cách xử lý vấn đề
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
-
+Không, tôi giữ chính kiến của mình
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
-
+Có, tôi khá bất ngờ, vì còn gặp khá nhiều lỗi, có thể Agent cũng chưa thể giải quyết triệt để một số vấn đề
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
-
+Mindset của mình chưa đủ tốt để hiểu rõ mình cần gì, người ta cần gì, và Agent có thể làm những cái gì
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
-
+Tìm kiếm solution, tìm hiểu mà soi rõ nhất tối đa việc mà Agent có thể đảm nhiệm được
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+-Chuỗi problem: Mình bị thiếu thông tin về công việc cần xử lý trong ngày
+-Quy trình: Cần phải thu thập thông tin và sắp xếp công việc cho hợp lý
+-Metric: Thay vì rối tung cả ngày, mất hàng giờ thì chỉ cần rút gọn xuống tầm 15p
+-Boundary: Chỉ cần sắp xếp công việc một cách đơn giản nhưng triệt để
+-Mức can thiệp AI: Chỉ thu thập và sắp xếp
+-Quyết định bài của nhóm: Hoàn thành
 
 ---
 
