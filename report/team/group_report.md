@@ -18,57 +18,76 @@
 
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
-| 7 | | | | | |
-| 8 | | | | | |
-| 9 | | | | | |
-| 10 | | | | | |
-| 11 | | | | | |
-| 12 | | | | | |
+Mỗi người pitch card muốn pitch nhất (in đậm) và nêu nhanh 2 card còn lại. Chi tiết từng card nằm trong file cá nhân ở `report/individual/`.
+
+| # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
+|---:|---|---|---|---|---|
+| 1 | Vũ Nhật Minh | **Mỗi sáng gom việc và deadline từ mail, Kanban, Zalo/Messenger, lịch để không lỡ việc** | Người làm việc nhóm tự gom việc mỗi sáng | Bước tổng hợp và sắp xếp: 15/30 phút; việc giao qua chat hay bị trôi (~10 việc lỡ/tháng) | "Các app chat không cho hệ thống ngoài truy cập; có nên để AI đọc hết tin nhắn cá nhân không? Chỉ dùng quy ước giao việc thì giải được bao nhiêu %?" (Vũ Đức Anh) |
+| 2 | Vũ Nhật Minh | Theo dõi model AI mới và giá API để không dùng nhầm model đắt hoặc đã đổi | Người dùng API trong lab, cả nhóm | Tự đọc changelog, bảng giá; từng mất $10 và 1 ngày sửa | — (nêu nhanh) |
+| 3 | Vũ Nhật Minh | Chia việc trong nhóm để không phải giao lại | Nhóm trưởng và các thành viên | Bước chia việc và chờ xác nhận | — (nêu nhanh) |
+| 4 | Vũ Đức Anh | **Tìm lại câu trả lời của thầy hoặc quyết định nhóm trong Discord** | Học viên theo dõi nhiều kênh Discord | Cuộn kết quả search và đọc ngữ cảnh: 10–20 phút/lần, 3–5 lần/tuần | "Quyền API Discord có bị chặn không? Nếu chỉ ghim tin hoặc có 1 bạn ghi chép vào Google Docs sau mỗi buổi thì có cần AI không?" (Vũ Nhật Minh, Nguyễn Trọng Phương Bách) |
+| 5 | Vũ Đức Anh | Nhớ lại mình đã làm gì khi viết báo cáo cá nhân sau lab | Học viên nộp báo cáo sau lab | Nhớ lại và tra chat nhóm: 20–25/35 phút | — (nêu nhanh) |
+| 6 | Vũ Đức Anh | Hiểu ngay task vừa được giao trong nhóm | Thành viên nhóm nhận task qua Discord/Docs | Nhắn hỏi và chờ trả lời: 15–30 phút, 2–3 lần/lab | — (nêu nhanh) |
+| 7 | Nguyễn Trọng Phương Bách | **Lọc tin học tập liên quan đến mình từ Discord, Facebook, Zalo** | Sinh viên theo dõi thông báo lớp trên 3 nền tảng | Đọc và lọc tin: 12/20 phút mỗi ngày | "Nếu ghim thông báo và dùng một bảng chung thì còn cần chatbot không?" (nhóm) |
+| 8 | Nguyễn Trọng Phương Bách | Biết thông báo nào còn hiệu lực khi tin cũ và mới khác nhau | Sinh viên; người phụ trách lớp xác nhận | Tìm và đối chiếu bản cập nhật: 5 phút/lần; hỏi lại 1 lần/tuần | — (nêu nhanh) |
+| 9 | Nguyễn Trọng Phương Bách | Biết nên làm bài nào trước khi nhiều bài gần hạn | Sinh viên tự xếp thứ tự làm bài | Chọn thứ tự: 4 phút/lần, từng trễ 1/3 bài | — (nêu nhanh) |
+| 10 | Lê Hải Bắc | **Tối ôn bài, mở ngay đúng phần nội dung cần ôn** | Sinh viên tự ôn buổi tối | Mở lần lượt 3–4 file để tìm: 8/15–20 phút mỗi buổi, 2–3 buổi/tuần | "Những việc đó có thể khắc phục bằng cách làm thủ công không?" (nhóm) |
+| 11 | Lê Hải Bắc | Giữ mạch đọc khi phải chuyển qua lại nhiều tài liệu | Sinh viên tự ôn | Chuyển file và tìm đoạn tương ứng: 5–6 phút/lần, 3–4 lần/buổi | — (nêu nhanh) |
+| 12 | Lê Hải Bắc | Bạn cùng khóa tìm được slide của buổi học mà không phải hỏi lại | Bạn cùng khóa, người trả lời trong nhóm chat | Chờ người trả lời: 10 phút đến vài giờ | — (nêu nhanh) |
+| 13 | Đào Trường Vũ | **Nhóm trưởng đồ án lập khung dự án, chia việc và deadline cho thành viên** | Nhóm trưởng và thành viên nhóm đồ án | Tìm hiểu input và chia việc: 2–3 tuần | "Lần gần nhất bạn lập khung là khi nào và mất bao lâu?" (Vũ tự đặt cho nhóm) |
+| 14 | Đào Trường Vũ | Đi bus Hà Đông – Gia Lâm bị tắc đường | Người đi bus giờ cao điểm | Đoạn Nguyễn Trãi: ~40 phút/chuyến | — (nêu nhanh) |
+| 15 | Đào Trường Vũ | Công việc nhập liệu lặp lại gây nhàm chán (công ty cũ) | Bản thân | Tìm contact: 7,5 giờ/ngày | — (nêu nhanh) |
 
 ### 2.2. Cluster
 
 | Cluster | Các candidate | Pattern chung |
 |---|---|---|
-| A | | |
-| B | | |
-| C | | |
+| A. Việc và deadline bị lỡ hoặc giao không rõ | #1, #3, #6, #9, #13 | Việc đến từ nhiều nơi hoặc được giao không rõ, không có một chỗ duy nhất để biết "hôm nay mình phải làm gì, trước hạn nào" |
+| B. Thông tin phân tán, phải lọc hoặc tìm lại | #2, #4, #5, #7, #8, #10, #11, #12 | Thông tin nằm rải ở nhiều kênh/file; người dùng mất thời gian lọc tin, tìm lại tin cũ hoặc đối chiếu bản nào còn đúng |
+| C. Ngoài phạm vi lab | #14, #15 | Không có quy trình mà nhóm hoặc người dùng tự thay đổi được (giao thông, cách mentor giao việc); không so sánh được 4 mức can thiệp |
+
+Cluster A và B chồng nhau ở chỗ: việc bị lỡ (A) phần lớn là do tin giao việc bị trôi trong chat (B). Vì vậy nhóm ưu tiên candidate nằm ở giao điểm của hai cluster.
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
 Gốc là **1 outcome**. Nhánh là **opportunity** (nhu cầu, pain), không phải tính năng hay công cụ.
 
 ```text
-OUTCOME: 
-├── Opportunity A: 
-├── Opportunity B: 
-└── Opportunity C: 
+OUTCOME: Mỗi ngày biết đủ việc và deadline của mình trong ít thời gian, không lỡ việc
+├── Opportunity A: Tôi không biết hết việc được giao cho mình, vì việc giao qua tin nhắn bị trôi (#1, #7, #13)
+│   └── Sub: Tôi phải tự gom việc từ 4 nguồn mỗi sáng, mất ~30 phút (#1)
+├── Opportunity B: Tôi mất nhiều thời gian tìm lại hoặc kiểm tra thông tin cũ (#4, #8, #10, #12)
+└── Opportunity C: Tôi không chắc mình phải làm gì và làm gì trước (#6, #9)
 ```
 
 Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
--
+- "Chatbot tổng hợp thông tin học tập" (bản đầu của #7): đây là giải pháp; nhu cầu thật là "biết tin nào liên quan đến mình"
+- "AI Agent tự index Discord và trả lời" (bản đầu của #4): giải pháp; nhu cầu thật là "tìm lại đúng thread nhanh"
+- "Build AI Agent lập khung đồ án" (#13): quy trình hiện tại của card được viết theo giải pháp (bước 1 là "Build Agent")
+- "Camera AI phạt lấn làn" (#14): giải pháp ngoài tầm kiểm soát của người dùng
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
 | Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
+| #1 Gom việc và deadline buổi sáng (Minh) | 5 | 5 | 4 | 5 | 4 | 5 | 5 | **33** |
+| #7 Lọc tin học tập nhiều kênh (Bách) | 4 | 4 | 3 | 4 | 4 | 5 | 5 | 29 |
+| #4 Tìm lại thông tin trong Discord (Đức Anh) | 4 | 4 | 3 | 3 | 3 | 4 | 5 | 26 |
 
-**Candidate được chọn:**
+**Candidate được chọn:** #1, gom việc và deadline từ nhiều nguồn mỗi sáng.
 
-**Vì sao chọn:**
+**Vì sao chọn:** Có baseline rõ nhất (30 phút/sáng, từng bước có số phút; ~10 việc lỡ/tháng). Quy trình 5 bước vẽ được ngay, và có thể so sánh đủ 4 mức can thiệp: nguồn mail/lịch hợp với Rule, nguồn chat thì khó truy cập nên phải tính cả phương án No AI. Candidate này nằm ở giao điểm cluster A và B, và đã bao luôn phần "lọc tin Zalo/Facebook" của #7.
 
 **Vì sao loại các candidate còn lại:**
 
-**Xử lý bất đồng (nếu có):**
+- #7 (Bách): pain gần giống #1 nhưng chỉ đo thời gian lọc tin, chưa đo việc bị lỡ; nhóm gộp nó vào nguồn "chat" của #1
+- #4 (Đức Anh): phụ thuộc quyền truy cập server Discord của lớp (rủi ro Feasibility); ghim tin hoặc ghi chép vào Google Docs có thể đã đủ
+- #10 (Bắc): giải được ngay bằng quy ước đặt tên file và một file index 3 dòng (Rule/No AI), chưa cần so sánh nhiều mức
+- #13 (Vũ): bottleneck kéo dài 2–3 tuần, không đo lại được trong thời gian lab; card đã chọn sẵn giải pháp Agent
+- #14, #15: thuộc cluster C, ngoài phạm vi lab
+
+**Xử lý bất đồng (nếu có):** Đức Anh muốn ưu tiên #4 vì nhiều bạn cùng gặp. Nhóm so sánh bằng bảng điểm: #1 cao hơn ở "Impact đo được" và "Vừa sức lab" vì có baseline sẵn và không phụ thuộc quyền admin server, nên Đức Anh đồng ý chọn #1. Vũ vẫn giữ ý kiến rằng Agent là hướng triệt để cho #13; nhóm ghi nhận nhưng không đưa vào shortlist vì không đo được trong lab.
 
 ---
 
@@ -85,7 +104,7 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 | 5 | Người dùng chấp nhận cho một công cụ truy cập thông tin cá nhân (mail, tin nhắn) | Viability | 4 | 1 | Có, hỏi trong phỏng vấn |
 | 6 | Người dùng tiếp cận và dùng được công cụ công nghệ (app task, Kanban, tự động hóa) | Usability | 3 | 4 | Không (cả nhóm đang dùng Kanban và mail hằng ngày) |
 
-Giả định nhóm kiểm chứng trong buổi này: **#1, #2, #3** bằng phỏng vấn; **#4** bằng research; **#5** bằng một câu hỏi phụ cuối buổi phỏng vấn.
+Giả định nhóm kiểm chứng trong buổi này: **#1, #2, #3** bằng phỏng vấn; **#4** bằng research. **#5** chưa kiểm chứng được trong buổi này (ghi ở mục 9).
 
 ### 3.2. Kiểm chứng
 
@@ -133,7 +152,7 @@ Sau phỏng vấn, nhóm sửa 4 điểm:
 
 Giả định #5 (người dùng chấp nhận cho công cụ đọc thông tin cá nhân) chưa được hỏi trong 2 buổi phỏng vấn này.
 
-Sau research (mục 3.3), nhóm đã sửa một điểm: phần mail và lịch **đã có công cụ sẵn** giải được bằng Rule, nên nhóm thu hẹp khoảng trống cần giải về **việc được giao qua tin nhắn cá nhân (Zalo/Messenger)**.
+Sau research (mục 3.3), nhóm đã sửa một điểm: phần mail và lịch **đã có công cụ sẵn** giải được bằng Rule, nên nhóm thu hẹp khoảng trống cần giải về **việc được giao qua tin nhắn (Zalo, Messenger, group Facebook)**.
 
 ### 3.3. Research giải pháp đã có
 
